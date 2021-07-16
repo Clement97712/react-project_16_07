@@ -1,9 +1,8 @@
 import "./css/index.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./component/Home";
 import MyGoogleMap from "./component/MyGoogleMap";
 import MyFirebase from "./component/Firebase";
-import { Link as MyLink } from "react-uikit";
 
 function App() {
   return (
